@@ -34,10 +34,10 @@
 ## 🗺️ 效果预览
 
 <!-- 替换为你的实际截图路径 -->
-![简化后路网](https://github.com/user-attachments/assets/554ad064-9e10-4104-b04a-e90d6cc07176)
+![简化后路网]([https://github.com/user-attachments/assets/554ad064-9e10-4104-b04a-e90d6cc07176])
 *图1：简化后的北京大学附近路网*
 
-![环路检测结果](https://github.com/user-attachments/assets/463d742e-ac12-4caa-b904-0a8d62611c8f)
+![环路检测结果]([https://github.com/user-attachments/assets/6365c256-a5fb-4e2a-a2bf-7134276a1805])
 *图2：检测出的骑行环路*
 
 ---
