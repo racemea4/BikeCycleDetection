@@ -144,10 +144,8 @@ sudo snap install code --classic
 1. 访问 [Geofabrik](https://download.geofabrik.de/)
 2. 依次选择：亚洲（Asia）→ 中国（China）→ 北京（Beijing）
 3. 下载 `beijing-latest-free.shp.zip` 文件
-4. 解压后**仅提取道路图层文件**（文件名含 `roads` 的 `.shp`、`.shx`、`.dbf`、`.prj` 文件）
-5. 将提取的文件放入项目的 `data/your_city/` 文件夹中
-
-> ⚠️ **注意**：请勿将建筑物、水系等其他图层放入数据文件夹，以免影响程序识别。
+4. 解压压缩包文件夹
+5. 将提取的文件夹放入项目的 `data/your_city/` 文件夹中
 
 ---
 
@@ -290,8 +288,6 @@ data/
 ```
 
 然后直接运行 `build_road_network.py`，输入该文件夹路径即可。
-
-> ⚠️ **注意**：程序会扫描文件夹内所有 `.shp` 文件并自动识别道路图层，请确保文件夹内只放置道路数据，避免混入建筑物、水系等其他图层。
 
 ---
 
